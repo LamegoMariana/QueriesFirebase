@@ -16,6 +16,7 @@ dependencies:
   firebase_auth: ^4.12.1
   firebase_core: ^2.21.0
   google_sign_in: ^6.1.5
+  cloud_firestore: ^4.12.2
   # firebase ui widgets derived by https://pub.dev/packages/flutterfire_ui
   firebase_ui_firestore: ^1.5.13
 
