@@ -1,7 +1,9 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_ui_firestore/firebase_ui_firestore.dart';
 import 'package:flutter/material.dart';
 
 class ItemPublic extends StatefulWidget {
-  final Map<String, dynamic> publicFData;
+  final dynamic publicFData;
   ItemPublic({Key? key, required this.publicFData}) : super(key: key);
 
   @override
@@ -13,29 +15,19 @@ class _ItemPublicState extends State<ItemPublic> {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.all(18.0),
-      child: Card(
-        clipBehavior: Clip.antiAlias,
-        child: ListTile(
-          leading: CircleAvatar(
-            child: Text("${widget.publicFData["username"].toString()[0]}"),
-          ),
-          title: Text("${widget.publicFData["title"]}"),
-          subtitle: Text("${widget.publicFData["publishedAt"].toDate()}"),
-          trailing: Wrap(
-            children: [
-              IconButton(
-                icon: Icon(Icons.star_outlined, color: Colors.green),
-                tooltip: "Likes: ${widget.publicFData["stars"]}",
-                onPressed: () {},
+      child: Column(
+        children: [
+          Card(
+            clipBehavior: Clip.antiAlias,
+            child: ListTile(
+              leading: CircleAvatar(
+                child: Text("${widget.publicFData.data()["chatters"][0]}"),
               ),
-              IconButton(
-                tooltip: "Compartir",
-                icon: Icon(Icons.share),
-                onPressed: () {},
-              ),
-            ],
+              title: Text("${widget.publicFData.id}"),
+              subtitle: Text("${widget.publicFData.data()}"),
+            ),
           ),
-        ),
+        ],
       ),
     );
   }

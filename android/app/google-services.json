@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "373410493318",
+    "project_id": "nombrequeyoquiera",
+    "storage_bucket": "nombrequeyoquiera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373410493318:android:7263f9de5cbfd795267207",
+        "android_client_info": {
+          "package_name": "com.example.app_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373410493318-5iqi74rkhp64j0bvnsb0pqvqbpg2b9fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPJEAXDb8hS2SPwS75wmloXn22LZC8teg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373410493318-5iqi74rkhp64j0bvnsb0pqvqbpg2b9fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373410493318:android:686df3778876a1a3267207",
+        "android_client_info": {
+          "package_name": "com.example.fs_tweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373410493318-bcvii54i7kvi9u0n60o33ppvun7r4u5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fs_tweet",
+            "certificate_hash": "ef4653ed63ef3b7f78fd8f0d940eafe439e40522"
+          }
+        },
+        {
+          "client_id": "373410493318-5iqi74rkhp64j0bvnsb0pqvqbpg2b9fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPJEAXDb8hS2SPwS75wmloXn22LZC8teg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373410493318-5iqi74rkhp64j0bvnsb0pqvqbpg2b9fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

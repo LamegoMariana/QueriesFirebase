@@ -22,6 +22,7 @@ class UserAuthRepository {
   }
 
   Future<void> signInWithGoogle() async {
+    /*
     // set up Google sign in
     final googleUser = await _googleSignIn.signIn();
     final googleAuth = await googleUser!.authentication;
@@ -30,9 +31,10 @@ class UserAuthRepository {
     final AuthCredential credential = GoogleAuthProvider.credential(
       idToken: googleAuth.idToken,
       accessToken: googleAuth.accessToken,
+      
     );
 
     // firebase sign in con credenciales de Google
-    await _auth.signInWithCredential(credential);
+    await _auth.signInWithCredential(credential);*/
   }
 }
